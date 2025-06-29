@@ -1,0 +1,7 @@
+/venv
+.env.secrets
+/backups
+.vscode
+*.ipynb
+*__pycache__
+*.log

@@ -1,0 +1,11 @@
+[tool.ruff]
+select = [
+    "E",   # all pycodestyle errors, including E401
+    "F",   # pyflakes errors (undefined names, etc.)
+    "I",   # import‐order checks, if you want them
+    "B",   # bugbear, etc. (optional)
+]
+line-length = 100
+
+[tool.deptry]
+known_first_party = ["scripts"]

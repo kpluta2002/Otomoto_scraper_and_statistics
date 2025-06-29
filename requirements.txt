@@ -1,0 +1,14 @@
+aiohttp==3.12.12
+itemadapter==0.11.0
+nest-asyncio==1.6.0
+pandas==2.2.3
+parsel==1.10.0
+python-dotenv==1.1.0
+python-on-whales==0.77.0
+requests==2.32.3
+Scrapy==2.13.0
+sqlacodegen==3.0.0
+SQLAlchemy==2.0.41
+tqdm==4.67.1
+Twisted==24.11.0
+ua-generator==2.0.7
