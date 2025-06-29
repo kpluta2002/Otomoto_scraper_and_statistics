@@ -33,7 +33,11 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 3. Start docker
+### 3. Unpack base.zip
+Since I wanted to supply the data i scraped, there is one larger postgres file which needs to be unpacked. It can be found here: [base.zip](data/postgres/base.zip).    
+Go ahead and **unpack it in the same directory** it's already in.
+
+### 4. Start docker
 You need to have docker installed and running.  
 It will automatically set up the PostgreSQL and metabase with data from [/data](data) folder.
 ```bash
